@@ -1,5 +1,11 @@
 # SMART FHIR Angular App
 
+![ANGULAR](https://user-images.githubusercontent.com/16957638/56209187-ccb87d80-604a-11e9-837c-5db4109ede8b.png)
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Development server
