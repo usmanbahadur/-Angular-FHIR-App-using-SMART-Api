@@ -1,0 +1,18 @@
+h4{
+  color: chocolate;
+  position: relative;
+}
+h3{
+  color: green;
+  position: relative;
+}
+
+
+.image{
+  height:-20em; background-size:cover; width: 20em;
+   background-image:url('../assets/imgs/FHIR.png');
+
+  background-position:50% 50%;
+
+
+}

@@ -1,0 +1,32 @@
+ <p *ngFor="let item of Pateint">
+
+<p *ngIf = "isFetching">Fetching Patient....</p>
+<table *ngIf="!isFetching"  border = "2" width="380" height= "220">
+<tbody>
+    <div class="banner">
+        <b>MRN:&nbsp;&nbsp;</b>{{PatMRN}}
+        &nbsp;&nbsp;
+        <b> Name:&nbsp;&nbsp;</b>{{personList}}
+      </div><br>
+      <div class="banner">
+      <b> Gender:&nbsp;&nbsp;</b>{{PatGender}}
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <b> Date of Birth:&nbsp;&nbsp;</b>{{DateOfBirth}}
+    </div>
+  <tr> <td><b>Address:&nbsp;&nbsp;</b>{{PatAddress}}</td>
+  <tr> <td><b>Email:&nbsp;&nbsp;</b>{{PatTelecom}}</td>
+</tr>
+</tbody>
+</table>
+<h3>Condition</h3>
+<table *ngIf="!isFetching"  border = "2" width="380" height= "120">
+    <tbody>
+          <div class="banner">
+          <b>Verification:&nbsp;&nbsp;</b>{{CondStat}}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <b>Status:&nbsp;&nbsp;</b>{{Condverf}}
+         <br><br>
+          <b>Condition:&nbsp;&nbsp;</b>{{PatCond}}
+        </div>
+    </tbody>
+    </table>
