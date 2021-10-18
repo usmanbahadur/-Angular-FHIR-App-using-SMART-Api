@@ -1,12 +1,27 @@
 # SMART FHIR Angular App
 
-![ANGULAR](https://user-images.githubusercontent.com/16957638/56209187-ccb87d80-604a-11e9-837c-5db4109ede8b.png)
+This application uses most recent version of FHIR R4 and pulls patients FHIR profiles (Demograhpics, Observations,Conditions)
+https://r4.smarthealthit.org 
+
+ **TO DO** 
+-  
+- Add front end functionality for user to enter a Patient ID to search patients, instead of calling pre-configured patients https://r4.smarthealthit.org/Patient/ID   
+- Observation and Condition  extract and display meaningful data from FHIR resources.  
+
+![image](https://user-images.githubusercontent.com/16957638/137718417-ca290cb1-1108-417f-b0fd-df635cf7fe12.png)
 
 
 
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+## npm Installation 
+
+Once project is cloned from repositiory:  
+GitBash npm install
+npm update
+npm audit fix  (for any errors)
+
 
 ## Development server
 
