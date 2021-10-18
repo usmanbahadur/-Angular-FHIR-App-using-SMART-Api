@@ -4,8 +4,14 @@
     <img src="assets/imgs/ang.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/imgs/Smart.png">
     <!--div class="image"></div-->
     <hr>
+    
     <router-outlet><h3>Patient Demographics</h3> </router-outlet>
 
 
 
+        <form (submit)="search(ref, id, forename, surname, postcode)" action="#">
+          <button mat-raised-button type="submit" class="successButton" id="invSearch" title="Click to perform search." >Search</button>
+        </form>
+ 
 
+   

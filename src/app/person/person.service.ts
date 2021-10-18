@@ -99,13 +99,13 @@ export class PersonService {
                 resource: any;
                 valueQuantity: any;
                 value: any;
-              }) => Observation ['resource']['valueQuantity']
+              }) => Observation["resource"]["valueQuantity"]
             );
         })
       )
       .subscribe((transformedData) => {
-        this.PatientObs.next((transformedData));
-        console.log(transformedData);
+        this.PatientObs.next(transformedData);
+        //console.log(transformedData);
       });
 
     this.http
@@ -124,16 +124,13 @@ export class PersonService {
                 code: any;
                 coding: any;
                 display: any;
-              }) => Condition.resource['code']
-            )
-     
-
+              }) => Condition.resource["code"]
+            );
         })
       )
       .subscribe((transformedData) => {
         this.PatientCondition.next(transformedData);
-        console.log(transformedData);
+        //console.log(transformedData);
       });
   }
 }
-
