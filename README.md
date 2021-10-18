@@ -3,8 +3,6 @@
 This application uses most recent version of FHIR R4 and pulls patients FHIR profiles (Demograhpics, Observations,Conditions)
 https://r4.smarthealthit.org 
 
-#TODO: 
-
  **TO DO** 
 - Search Patient by ID:  https://r4.smarthealthit.org/Patient/ID  
 - Add front end functionality for user to enter a Patient ID to search patients.
