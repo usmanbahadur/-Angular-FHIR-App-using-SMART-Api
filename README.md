@@ -4,8 +4,8 @@ This application uses most recent version of FHIR R4 and pulls patients FHIR pro
 https://r4.smarthealthit.org 
 
  **TO DO** 
-- Search Patient by ID:  https://r4.smarthealthit.org/Patient/ID  
-- Add front end functionality for user to enter a Patient ID to search patients.
+-  
+- Add front end functionality for user to enter a Patient ID to search patients, instead of calling pre-configured patients https://r4.smarthealthit.org/Patient/ID   
 - Observation and Condition  extract and display meaningful data from FHIR resources.  
 
 ![image](https://user-images.githubusercontent.com/16957638/137718417-ca290cb1-1108-417f-b0fd-df635cf7fe12.png)
