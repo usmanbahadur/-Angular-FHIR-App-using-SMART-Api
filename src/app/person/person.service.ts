@@ -136,8 +136,4 @@ export class PersonService {
       });
   }
 }
-//for (var product of products) {
-//  console.log(product.product_desc)
-//}
-//resultArr.forEach(AllDate => dateArr.push({date: AllDate.date}));
-//console.log(dateArr);
+
