@@ -1,12 +1,19 @@
 # SMART FHIR Angular App
 
-![ANGULAR](https://user-images.githubusercontent.com/16957638/56209187-ccb87d80-604a-11e9-837c-5db4109ede8b.png)
+![image](https://user-images.githubusercontent.com/16957638/137718417-ca290cb1-1108-417f-b0fd-df635cf7fe12.png)
 
 
 
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+## npm Installation 
+
+Once project is cloned from repositiory:  
+GitBash npm install
+npm update
+npm audit fix  (for any errors)
+
 
 ## Development server
 
