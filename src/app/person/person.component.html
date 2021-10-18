@@ -1,4 +1,4 @@
- <p *ngFor="let item of Pateint">
+ <p *ngFor="let item of Patient">
 
 <p *ngIf = "isFetching">Fetching Patient....</p>
 <table *ngIf="!isFetching"  border = "2" width="380" height= "220">
@@ -18,15 +18,31 @@
 </tr>
 </tbody>
 </table>
-<h3>Condition</h3>
-<table *ngIf="!isFetching"  border = "2" width="380" height= "120">
+<table *ngIf = "!isFetching"  border = "2" height= "120">
+  <thead>
+    <tr>
+      <th>Vital Signs Observation</th>
+    </tr>
     <tbody>
-          <div class="banner">
-          <b>Verification:&nbsp;&nbsp;</b>{{CondStat}}
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <b>Status:&nbsp;&nbsp;</b>{{Condverf}}
-         <br><br>
-          <b>Condition:&nbsp;&nbsp;</b>{{PatCond}}
-        </div>
+      <tr>{{ObservationVal}}</tr>
+      <td>{{ObservationCode}}</td>
+      
     </tbody>
     </table>
+
+
+
+
+    <table *ngIf = "!isFetching"  border = "2" height= "120">
+      <thead>
+        <tr>
+          <th>Condition Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>{{Condition}}</tr>
+     <td>  {{ ConditionVal}}</td> 
+
+      </tbody>
+    </table>
+
